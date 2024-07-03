@@ -1,20 +1,26 @@
-# e-commerce-store
+## E-Commerce
 
-**Free hosting use for deployement, so it might be happen response take much time and some time its down, So please run this project on local for checking.**
+This project is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It provides functionalities for managing courses/products, including CRUD operations.
 
+## Features
 
- ## Technology Which I Used
-   ***Backend***
-   
- - Nodejs
- - Mongodb
- - Express
+- **MongoDB**: NoSQL database used for storing course/product data.
+- **Express.js**: Backend framework for building RESTful APIs.
+- **React.js**: Frontend library for building user interfaces.
+- **Node.js**: JavaScript runtime environment for running server-side applications.
 
- ***Frontend***
- 
+## Technologies Used
 
- - React Js
- - Redux
+- **Frontend**: React, Axios
+- **Backend**: Node.js, Express.js, MongoDB (Mongoose)
+- **Other**: Axios, Multer (for file uploads), React Router (for client-side routing)
+
+## Setup Instructions
+
+### Prerequisites
+
+- Node.js and npm installed globally on your machine.
+- MongoDB server running locally or a MongoDB Atlas account.
 
 <br />
 
@@ -23,25 +29,18 @@
 
  
 **For Backend**
- 1. `git clone https://github.com/MohitSojitra/e-commerce-store.git`
- 2. `cd e-comerce-backend`
+ 1. `git clone https://github.com/rajveer1131/Ecom.git`
+ 2. `cd backend`
  3. `npm i`
  4. `npm run data:import`
  5. `npm run dev`
 
 **For Frontend**
 
- 1. `cd e-comerce-frontend`
+ 1. `cd frontend`
  2. `npm i`
  3. `npm run start`
 
-**NOTE** : If you stuck then contact me on LinkedIn (https://in.linkedin.com/in/mohit-sojitra)
-
-## Request
-
- - If You find any bug then please **create issue** i love to solve that
- - If you want to contribute this project then **feel free to make pull request** i love to merge your request
- - If You have suggestion or want new feature the feel free to **create an issue with label features**.
 
 
 #### If you like project then feel free to give Star 😅
